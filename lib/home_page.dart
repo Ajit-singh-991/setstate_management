@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           //leading: const Icon(Icons.ac_unit_rounded),
           title: "SetState Management".richText.white.make(),
         ),
-        drawer: Drawer(),
+        drawer: const Drawer(),
         body: VStack([
           Container(
             height: 100,
